@@ -1,0 +1,73 @@
+1. RESUME IN JSON FORMAT
+{
+  "basics": {
+    "name": "SUNDARAVEL K",
+    "email": "sundarvel.kasi@gmail.com",
+    "phone": "9566017947",
+    "degree": "B.E (Electrical and Electronics Engineering)",
+
+    "location": {
+      "address": " F2, 85/35-36 , NAVIN KAILASH APTS, SOUTH SIVAN KOVIL STREET VADAPALANI",
+      "postalCode": "600026",
+      "city": "CHENNAI",
+      "countryCode": "INDIA",
+      "region": "TAMIL NADU"
+    },
+    "profiles": [
+      {
+        "network": "Linked In",
+        "username": "Sundaravel K",
+        "url": " www.linkedin.com/in/sundaravel-k-2a0b03234"
+      }
+    ]
+  },
+
+  "education": [
+    {
+      "institution": "St. Joseph's College of Engineering",
+      "area": "Bachelor of Engineering (Electrical and Electronics)",
+      "studyType": "Regular Mode",
+      "startDate": "04/11/2020",
+      "endDate": "10/04/2024",
+      "cgpa": "8.66",
+      "classification":"First class with Distinction"
+     
+      ]
+    }
+ 
+  "publications": [
+    {
+      "name": "TWO STAGE HIGH GAIN DC/DC CONVERTER WITH MODEL PREDICTIVE CONTROLLER",
+      "publisher": "SUNDARAVEL K",
+      "releaseDate": "18/01/2024",
+      "summary": "This controller helps in Renewable applications"      
+    }
+  ],
+  "skills": [
+    {
+      "name": ""PYTHON ",
+      "level": "INTERMEDIATE",
+      
+    }
+  ],
+  "languages": [
+    {
+      "language": "ENGLISH, TAMIL, HINDI",
+      "fluency": "TO READ, WRITE, SPEAK"
+    }
+  ],
+  "interests": [
+    {
+      "name": "READING BOOKS",
+      "keywords": [
+        "GOOSEBUMPS, HARRY POTTER "
+      ]
+    }
+  ]
+}
+
+2. for loop i JSON
+
+for (var i = 0; i < Object(resume).length; i++) {
+  var key = Object(resume)[i];
+  console.log(JSON.str
